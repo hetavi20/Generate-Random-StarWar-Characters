@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarWar</title>
+    <!-- load page -->
+    <!-- <script>
+        window.onload = function() {
+            alert("page is loading");
+        }
+    </script> -->
+    <!-- page refreshed alert -->
+    <!-- <script>
+        window.onbeforeunload = function() {
+            console.log("before unload");
+            return "are you sure you want to leave page? ";
+        }
+    </script> -->
+
+    <!-- strict mode -->
+    <!-- x=20; Gives error -->
+    <!-- <script>
+        "use strict"
+        let x = 21;
+    </script> -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="img">
+        <div class="heading">
+            <h1>Get random StarWar Character</h1>
+        </div>
+        <div class="btn">
+
+            <button class="bt" onclick="getPokemon()">Generate StarWar Character</button>
+        </div>
+
+        <div class="display">
+            <table>
+                <tr>
+                    <td>ID:</td>
+                    <td id="pid"></td>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td id="pname"></td>
+                </tr>
+                <tr>
+                    <td>Height:</td>
+                    <td id="purl"></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
